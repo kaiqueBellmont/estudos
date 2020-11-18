@@ -1,23 +1,15 @@
-"""
-A = [1, -3, -2, 8, 4, -5, 6, -7]
-B = []
-C = []
-for x in A:
-    if x >= 0:
-        B.append(x)
-    else:
-        C.append(x)
+lista = list(range(4))
+for indice, valor in enumerate(lista):
+    lista[valor] = int(input(f'Digite um numero entre 0 e 50: '))
 
-"""
-vetor1 = list(range(4))
-vetor2 = list
-for indice, valor in enumerate(vetor1):
-    vetor1[valor] = int(input(f'Digite o valor para o indice: [{indice}] do vetor1:'))
-
-for num in enumerate(vetor1):
+lista_negativos = []
+for num in lista:
     if num < 0:
-        vetor2.append(num)
+        lista_negativos.append(num)
+        lista.remove(num)
+    elif num > 50:
+        lista.remove(num)
 
+print(f'Sua lista de negativos: {lista_negativos}')
+print(f'Sua lista entre 1 e 50: {lista}')
 
-print(vetor1)
-print(vetor2)
