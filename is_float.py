@@ -10,5 +10,7 @@ def isfloat(value):
             print("Digite um número válido (Use '.' [ponto] caso necessário) :")
             value = input()
 
-tuple.
+
 value = value(float)
+string = 14.5
+

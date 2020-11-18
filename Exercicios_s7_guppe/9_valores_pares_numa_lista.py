@@ -1,4 +1,4 @@
-lista = list(range(6))
+lista = list(range(4))
 for indice, valor in enumerate(lista):
     print(f'Digite um número PAR para o indice {indice}:')
     lista[valor] = float(input())
@@ -8,3 +8,5 @@ for indice, valor in enumerate(lista):
 
 print(f'Sua lista {lista}')
 print(f'Sua lista invertida:{lista[::-1]}')
+
+while not float.is_integer()
