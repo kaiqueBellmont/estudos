@@ -1,19 +1,4 @@
 import pywhatkit as kit
 
 
-kit.playonyt("See you again")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#sudo apt-get install python3-dev
+kit.sendwhatmsg("+5531993455856","hello", 6,10)
