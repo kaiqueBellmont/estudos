@@ -1,0 +1,11 @@
+--------------------
+Date: 2:12:2020
+Time: 6:10
+Phone number: +5531993455856
+Message: hello
+--------------------
+Date: 2:12:2020
+Time: 20:41
+Phone number: +5531989660722
+Message: se você recebeu essa mensagem, parabens. Ela foi envaida do meu bot
+--------------------
