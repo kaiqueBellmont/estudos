@@ -1,0 +1,10 @@
+# defino o tamanho
+for n in range(1, 15):
+    # função anonima: Se x for menor ou igual a 1 retorne 1
+    # do contrario, a variavel recebe numero - 1 + numero - 2
+    # defini no for para começar no 1 e terminar no 14 (len - 1)
+    fib = lambda x: x if x <= 1 else fib(x-1) + fib(x-2)
+    # esse é o modo que python printa
+    print(f'{n} = {fib(n)}')
+
+
