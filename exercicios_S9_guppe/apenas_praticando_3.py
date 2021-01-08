@@ -1,4 +1,5 @@
 # lambdas
+"""
 calculo = lambda x, y: x + y
 print(calculo(10, 10))
 
@@ -23,3 +24,24 @@ print(autores)
 autores.sort(key=lambda sobrenome: sobrenome.split(' ')[-1].lower())
 
 print(autores)
+
+"""
+import math
+
+
+def raio_circunferencia(r):
+    # Calcula a área de um círculo com raio 'r'.
+    return math.pi * (r ** 2)
+
+
+raios = [x for x in range(1, 100)]
+res = [raio_circunferencia(x).__round__(2) for x in raios]
+for indice, valor in enumerate(res):
+    # print(f'{x}')
+    print(indice, "=",  valor)
+
+
+areas = map(raio_circunferencia, raios)
+print(areas)
+
+print(list(map(lambda r: math.pi * (r ** 2), raios)))
