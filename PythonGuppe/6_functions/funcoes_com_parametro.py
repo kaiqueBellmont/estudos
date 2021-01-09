@@ -80,11 +80,11 @@ print(outra(5, 4, 'Python '))
 # Nomeando parâmetros
 
 
-def nome_completo(nome, sobrenome):
+def paises_e_casos(nome, sobrenome):
     return f'Seu nome completo é {nome} {sobrenome}'
 
 
-print(nome_completo('Angelina', "Jolie"))
+print(paises_e_casos('Angelina', "Jolie"))
 
 
 # A diferença entre Parâmetros e Argumentos
@@ -98,16 +98,16 @@ print(nome_completo('Angelina', "Jolie"))
 nome = 'Felicity'
 sobrenome = 'Jones'
 
-print(nome_completo(sobrenome, nome))
+print(paises_e_casos(sobrenome, nome))
 
 # Argumentos nomeados (Keyword Arguments)
 
-# Caso utilizemos nomes dos parâmetros nos argumentos para informá-los, podemos
+# Caso utilizemos paises dos parâmetros nos argumentos para informá-los, podemos
 # utilizar qualquer ordem.
 
-print(nome_completo(nome='Angelina', sobrenome='Jolie'))
-print(nome_completo(nome=nome, sobrenome=sobrenome))
-print(nome_completo(sobrenome='Marques', nome='Marcia'))
+print(paises_e_casos(nome='Angelina', sobrenome='Jolie'))
+print(paises_e_casos(nome=nome, sobrenome=sobrenome))
+print(paises_e_casos(sobrenome='Marques', nome='Marcia'))
 """
 
 # Erro comum na utilização do return

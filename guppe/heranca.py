@@ -30,7 +30,7 @@ class Cliente:
         self.__cpf = cpf
         self.__renda = renda
 
-    def nome_completo(self):
+    def paises_e_casos(self):
         return f'{self.__nome} {self.__sobrenome}'
 
 
@@ -42,15 +42,15 @@ class Funcionario:
         self.__cpf = cpf
         self.__matricula = matricula
 
-    def nome_completo(self):
+    def paises_e_casos(self):
         return f'{self.__nome} {self.__sobrenome}'
 
 
 cliente1 = Cliente('Angelina', 'Jolie', '123.456.789-00', 5000)
 funcionario1 = Funcionario('Felicity', 'Jones', '987.654.321-11', 1234)
 
-print(cliente1.nome_completo())
-print(funcionario1.nome_completo())
+print(cliente1.paises_e_casos())
+print(funcionario1.paises_e_casos())
 
 
 OBS: Quando uma classe herda de outra classe ela herda TODOS os atributos e métodos da classe herdada.
@@ -77,7 +77,7 @@ class Pessoa:
         self.__sobrenome = sobrenome
         self.__cpf = cpf
 
-    def nome_completo(self):
+    def paises_e_casos(self):
         return f'{self.__nome} {self.__sobrenome}'
 
 
@@ -100,8 +100,8 @@ class Funcionario(Pessoa):
 cliente1 = Cliente('Angelina', 'Jolie', '123.456.789-00', 5000)
 funcionario1 = Funcionario('Felicity', 'Jones', '987.654.321-11', 1234)
 
-print(cliente1.nome_completo())
-print(funcionario1.nome_completo())
+print(cliente1.paises_e_casos())
+print(funcionario1.paises_e_casos())
 
 print(cliente1.__dict__)
 

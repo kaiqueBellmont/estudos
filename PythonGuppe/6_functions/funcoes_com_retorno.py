@@ -1,13 +1,13 @@
 """
 Funções com retorno
 
-numeros = [1, 2, 3]
+casos = [1, 2, 3]
 
-ret_pop = numeros.pop()
+ret_pop = casos.pop()
 
 print(f'Retorno de pop: {ret_pop}')
 
-ret_pr = print(numeros)
+ret_pr = print(casos)
 
 print(f'Retorno de print: {ret_pr}')
 

@@ -19,7 +19,7 @@ print(*lista4)
 lista5 = [n for n in range(1, 100)]
 lista6 = [n + (n * n + 1) if n % 2 == 0 else n * n * - 1 for n in lista5]
 print(lista6)
-# exemplo : res = {num: ('par' if num % 2 == 0 else 'impar') for num in numeros}
+# exemplo : res = {num: ('par' if num % 2 == 0 else 'impar') for num in casos}
 """
 res = {valor: ('positivo' if valor > 0 else 'negativo') for valor in lista6}
 print(res)

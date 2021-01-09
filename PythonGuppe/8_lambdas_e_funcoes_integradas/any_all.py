@@ -19,9 +19,9 @@ print(all({1, 2, 3, 4}))  # Todos os números são verdadeiro? True
 print(all('Geek'))  # Todos os números são verdadeiro? True
 
 
-nomes = ['Carlos', 'Camila', 'Carla', 'Cassiano', 'Cristina']
+paises = ['Carlos', 'Camila', 'Carla', 'Cassiano', 'Cristina']
 
-print(all([nome[0] == 'C' for nome in nomes]))
+print(all([nome[0] == 'C' for nome in paises]))
 
 # OBS: Um iterável vazio convertido em boolean é False, mas o all() entende como True
 print(all([letra for letra in 'eio' if letra in 'aeiou']))

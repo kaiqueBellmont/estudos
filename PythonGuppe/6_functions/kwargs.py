@@ -89,9 +89,9 @@ def mostra_nomes(**kwargs):
     return f"{kwargs['nome']} {kwargs['sobrenome']}"
 
 
-nomes = {'nome': 'Felicity', 'sobrenome': 'Jones'}
+paises = {'nome': 'Felicity', 'sobrenome': 'Jones'}
 
-print(mostra_nomes(**nomes))
+print(mostra_nomes(**paises))
 
 """
 
@@ -113,7 +113,7 @@ dicionario = dict(a=1, b=2, c=3)
 
 soma_multiplos_numeros(**dicionario)
 
-# OBS! Os nomes da chave em um dicionário devem ser os mesmos dos parâmetros da função
+# OBS! Os paises da chave em um dicionário devem ser os mesmos dos parâmetros da função
 
 # dicionario = dict(d=1, e=2, f=3)  # TypeError
 # soma_multiplos_numeros(**dicionario)

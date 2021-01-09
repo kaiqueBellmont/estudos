@@ -9,7 +9,7 @@ import this
 
 A ideia da PEP8 é que possamos escrever códigos Python de forma Pythônica.
 
-[1] - Utilize Camel Case para nomes de classes;
+[1] - Utilize Camel Case para paises de classes;
 
 class Calculadora:
     pass
@@ -19,7 +19,7 @@ class CalculadoraCientifica:
     pass
 
 
-[2] - Utilize nomes em minúsculo, separados por underline para funções ou variáveis;
+[2] - Utilize paises em minúsculo, separados por underline para funções ou variáveis;
 
 def soma():
     pass

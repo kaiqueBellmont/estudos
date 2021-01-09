@@ -1,4 +1,4 @@
-# Este é um programa que verifica numeros primos em um vetor.
+# Este é um programa que verifica casos primos em um vetor.
 import math
 lista = [int(input(f'Digite o valor para o vetor [{i}] :')) for i in range(10)]
 for indice, valor in enumerate(lista):

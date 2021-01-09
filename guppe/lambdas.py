@@ -26,11 +26,11 @@ print(calc(7))
 
 # Podemos ter expressões lambdas com múltiplas entradas
 
-nome_completo = lambda nome, sobrenome: nome.strip().title() + ' ' + sobrenome.strip().title()
+paises_e_casos = lambda nome, sobrenome: nome.strip().title() + ' ' + sobrenome.strip().title()
 
 
-print(nome_completo(' angelina', 'JOLIE'))
-print(nome_completo('  FELICITY       ', ' jones '))
+print(paises_e_casos(' angelina', 'JOLIE'))
+print(paises_e_casos('  FELICITY       ', ' jones '))
 
 # Em funções Python podemos ter nenhuma ou várias entradas. Em Lambdas também
 

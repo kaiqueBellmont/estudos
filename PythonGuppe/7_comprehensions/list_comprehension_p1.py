@@ -11,19 +11,19 @@ iterável.
 
 # Exemplos
 
-numeros = [1, 2, 3, 4, 5]
+casos = [1, 2, 3, 4, 5]
 
-res = [numero * 10 for numero in numeros]
+res = [numero * 10 for numero in casos]
 
 print(res)
 """
 """
 Para entender melhor o que está acontecendo devemos divir a expressão em duas partes:
 
-- A primeira parte: for numero in numeros
+- A primeira parte: for numero in casos
 - A segunda parte: numero * 10
 
-res = [numero / 2 for numero in numeros]
+res = [numero / 2 for numero in casos]
 print(res)
 
 
@@ -31,7 +31,7 @@ def funcao(valor):
     return valor * valor
 
 
-res = [funcao(numero) for numero in numeros ]
+res = [funcao(numero) for numero in casos ]
 
 print(res)
 

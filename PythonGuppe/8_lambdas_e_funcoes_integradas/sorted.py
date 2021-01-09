@@ -12,21 +12,21 @@ OBS: O sorted, SEMPRE retorna uma Lista com os elementos do iterável ordenados
 
 # Exemplo
 
-numeros = {6, 1, 8, 2}
-print(numeros)
+casos = {6, 1, 8, 2}
+print(casos)
 
-print(sorted(numeros))  # Ordenar do menor para o maior
+print(sorted(casos))  # Ordenar do menor para o maior
 
-print(numeros)
+print(casos)
 
-numeros = [6, 1, 8, 2]
-print(numeros)
+casos = [6, 1, 8, 2]
+print(casos)
 
-print(sorted(numeros))
+print(sorted(casos))
 
 # Adicionando parâmetros ao sorted()
 
-print(sorted(numeros, reverse=True))  # Ordena do maior para o menor
+print(sorted(casos, reverse=True))  # Ordena do maior para o menor
 
 # Podemos utilizar o sorted() para coisas mais complexas
 

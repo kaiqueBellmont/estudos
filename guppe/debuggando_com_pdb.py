@@ -50,9 +50,9 @@ import pdb
 nome = 'Angelina'
 sobrenome = 'Jolie'
 pdb.set_trace()
-nome_completo = nome + ' ' + sobrenome
+paises_e_casos = nome + ' ' + sobrenome
 curso = 'Programação em Python: Essencial'
-final = nome_completo + ' faz o curso ' + curso
+final = paises_e_casos + ' faz o curso ' + curso
 print(final)
 
 # Exemplo com o PDB - Python Debugger - Exemplo 2
@@ -68,9 +68,9 @@ print(final)
 nome = 'Angelina'
 sobrenome = 'Jolie'
 import pdb; pdb.set_trace()
-nome_completo = nome + ' ' + sobrenome
+paises_e_casos = nome + ' ' + sobrenome
 curso = 'Programação em Python: Essencial'
-final = nome_completo + ' faz o curso ' + curso
+final = paises_e_casos + ' faz o curso ' + curso
 print(final)
 
 # Por queê utilizar este formato?
@@ -94,12 +94,12 @@ print(final)
 nome = 'Angelina'
 sobrenome = 'Jolie'
 breakpoint()
-nome_completo = nome + ' ' + sobrenome
+paises_e_casos = nome + ' ' + sobrenome
 curso = 'Programação em Python: Essencial'
-final = nome_completo + ' faz o curso ' + curso
+final = paises_e_casos + ' faz o curso ' + curso
 print(final)
 
-# OBS: Cuidado com conflitos entre nomes de variáveis e os comandos do pdb
+# OBS: Cuidado com conflitos entre paises de variáveis e os comandos do pdb
 
 
 def soma(l, n, p, c):
@@ -109,10 +109,10 @@ def soma(l, n, p, c):
 
 print(soma(1, 3, 5, 7))
 
-# Como os nomes das variávels são os mesmos dos comandos do pdb, devemos utilizar o comando p para imprimir
+# Como os paises das variávels são os mesmos dos comandos do pdb, devemos utilizar o comando p para imprimir
 # as variáveis. Ou seja: p nome_da_variavel
 
-# Nada de colocar nomes não representativos em variáveis. Sempre optar por nomes significativos.
+# Nada de colocar paises não representativos em variáveis. Sempre optar por paises significativos.
 
 def soma(num1, num2, num3, num4):
     breakpoint()

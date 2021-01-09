@@ -9,23 +9,23 @@ Em aulas anteriores nós estudamos:
 Não vimos:
 - Tuple Comprehension....porque elas se chamam Generators
 
-nomes = ['Carlos', 'Camila', 'Carla', 'Cassiano', 'Cristina', 'Vanessa']
+paises = ['Carlos', 'Camila', 'Carla', 'Cassiano', 'Cristina', 'Vanessa']
 
-print(any([nome[0] == 'C' for nome in nomes])
+print(any([nome[0] == 'C' for nome in paises])
 
 # Poderíamos ter feito utilizando Generators
 
-nomes = ['Carlos', 'Camila', 'Carla', 'Cassiano', 'Cristina', 'Vanessa']
+paises = ['Carlos', 'Camila', 'Carla', 'Cassiano', 'Cristina', 'Vanessa']
 
-print(any(nome[0] == 'C' for nome in nomes))
+print(any(nome[0] == 'C' for nome in paises))
 
 # List Comprehension
-res = [nome[0] == 'C' for nome in nomes]
+res = [nome[0] == 'C' for nome in paises]
 print(type(res))
 print(res)
 
 # Generator
-res = (nome[0] == 'C' for nome in nomes)
+res = (nome[0] == 'C' for nome in paises)
 print(type(res))
 print(res)
 

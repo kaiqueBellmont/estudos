@@ -185,8 +185,8 @@ for produto in carrinho:
 
 
 # Utilizando variáveis em listas
-numeros = [1, 2, 3, 4, 5]
-print(numeros)
+casos = [1, 2, 3, 4, 5]
+print(casos)
 
 num1 = 1
 num2 = 2
@@ -194,8 +194,8 @@ num3 = 3
 num4 = 4
 num5 = 5
 
-numeros = [num1, num2, num3, num4, num5]
-print(numeros)
+casos = [num1, num2, num3, num4, num5]
+print(casos)
 
 
 # Fazemos acesso aos elementos de forma indexada
@@ -244,30 +244,30 @@ print(lista)
 
 # Encontrar o índice de um elemento na lista
 
-numeros = [5, 6, 7, 5, 8, 9, 10]
+casos = [5, 6, 7, 5, 8, 9, 10]
 
 # Em qual índice da lista está o valor 6?
-print(numeros.index(6))
+print(casos.index(6))
 
 # Em qual índice da lista está o valor 9?
-print(numeros.index(9))
+print(casos.index(9))
 
-# print(numeros.index(19)) # Gera ValueError
+# print(casos.index(19)) # Gera ValueError
 
 # OBS: Caso não tenha este elemento na lista, será apresentado erro ValueError
 
 # OBS: Retorna o índice do primeiro elemento encontrato
-print(numeros.index(5))
+print(casos.index(5))
 
 # Podemos fazer busca dentro de um range, ou seja, qual indice começar a buscar
-print(numeros.index(5, 1))  # buscando a partir do índice 1
-print(numeros.index(5, 2))  # buscando a partir do índice 2
-print(numeros.index(5, 3))  # buscando a partir do índice 3
-# print(numeros.index(5, 4))  # buscando a partir do índice 4
+print(casos.index(5, 1))  # buscando a partir do índice 1
+print(casos.index(5, 2))  # buscando a partir do índice 2
+print(casos.index(5, 3))  # buscando a partir do índice 3
+# print(casos.index(5, 4))  # buscando a partir do índice 4
 # OBS: Caso não tenha este elemento na lista, será apresentado erro ValueError
 
 # Podemos fazer busca dentro de um range, inicio/fim
-print(numeros.index(8, 3, 6)) # Buscar o indice do valro 8, entre os índices 3 a 6
+print(casos.index(8, 3, 6)) # Buscar o indice do valro 8, entre os índices 3 a 6
 
 # Revisão de slicing
 
@@ -297,16 +297,16 @@ print(lista[::2])  # Começa em 0, vai até o final, de 2 em 2
 
 # Invertendo valores em uma lista
 
-nomes = ['Geek', 'University']
+paises = ['Geek', 'University']
 
-nomes[0], nomes[1] = nomes[1], nomes[0]
+paises[0], paises[1] = paises[1], paises[0]
 
-print(nomes)
+print(paises)
 
-nomes = ['Geek', 'University']
+paises = ['Geek', 'University']
 
-nomes.reverse()
-print(nomes)
+paises.reverse()
+print(paises)
 
 # Soma*, Valor Máximo*, Valor Mínimo*, Tamanho
 

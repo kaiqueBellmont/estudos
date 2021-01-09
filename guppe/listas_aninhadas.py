@@ -8,7 +8,7 @@ Listas Aninhadas (Nested Lists)
 
 Em Python nós temos as Listas
 
-numeros = [1, 'b', 3.234, True, 5]
+casos = [1, 'b', 3.234, True, 5]
 
 print(listas)
 

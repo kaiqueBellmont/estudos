@@ -32,11 +32,11 @@ print(Produto.desconto(p1, 40))  # self, desconto
 user1 = Usuario('Angelina', 'Jolie', 'angelina@gmail.com', '123456')
 user2 = Usuario('Felicity', 'Jones', 'felicity@gmail.com', '654321')
 
-print(user1.nome_completo())
+print(user1.paises_e_casos())
 
-print(Usuario.nome_completo(user1))
+print(Usuario.paises_e_casos(user1))
 
-print(user2.nome_completo())
+print(user2.paises_e_casos())
 
 print(f'Senha User 1: {user1._Usuario__senha}')  # Acesso de forma errada de um atributo de classe
 print(f'Senha User 2: {user2._Usuario__senha}')  # Acesso de forma errada de um atributo de classe

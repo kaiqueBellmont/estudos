@@ -155,7 +155,7 @@ estudantes_python = {'Marcos', 'Patricia', 'Ellen', 'Pedro', 'Julia', 'Guilherme
 estudantes_java = {'Fernando', 'Gustavo', 'Julia', 'Ana', 'Patricia'}
 
 
-# Precisamos gerar um conjunto com nomes de estudantes únicos
+# Precisamos gerar um conjunto com paises de estudantes únicos
 
 # Forma 1 - Utilizando union
 

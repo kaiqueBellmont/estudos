@@ -11,10 +11,10 @@ Iterable ->
 
 
 nome = 'Geek'  # É um iterable mas não é um iterator.
-numeros = [1, 2, 3, 4, 5, 6]  # É um iterable mas não é um iterator.
+casos = [1, 2, 3, 4, 5, 6]  # É um iterable mas não é um iterator.
 
 it1 = iter(nome)
-it2 = iter(numeros)
+it2 = iter(casos)
 
 
 print(next(it1))

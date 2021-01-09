@@ -25,15 +25,15 @@ dicionario = {'a': 1, 'b': 2, 'c': 3, 'd': 4}
 
 # Exemplos
 
-numeros = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
+casos = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
 
-quadrado = {chave: valor ** 2 for chave, valor in numeros.items()}
+quadrado = {chave: valor ** 2 for chave, valor in casos.items()}
 
 print(quadrado)
 
-numeros = [1, 2, 3, 4, 5, 1, 2]
+casos = [1, 2, 3, 4, 5, 1, 2]
 
-quadrados = {valor: valor ** 2 for valor in numeros}
+quadrados = {valor: valor ** 2 for valor in casos}
 
 print(quadrados)
 

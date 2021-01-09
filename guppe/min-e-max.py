@@ -76,15 +76,15 @@ print(min('Geek University'))
 
 # Outros exemplos
 
-nomes = ['Arya', 'Samson', 'Dora', 'Tim', 'Ollivander']
+paises = ['Arya', 'Samson', 'Dora', 'Tim', 'Ollivander']
 
-print(max(nomes))  # Tim
+print(max(paises))  # Tim
 
-print(min(nomes))  # Arya
+print(min(paises))  # Arya
 
-print(max(nomes, key=lambda nome: len(nome)))  # Ollivander
+print(max(paises, key=lambda nome: len(nome)))  # Ollivander
 
-print(min(nomes, key=lambda nome: len(nome)))  # Tim
+print(min(paises, key=lambda nome: len(nome)))  # Tim
 
 """
 

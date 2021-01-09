@@ -32,7 +32,7 @@ maiúsculo, todas juntas.
 
 
 Dica Geek: Em computação não utilizamos: Acentuação, caracteres especiais, espaços ou similares
-para nomes de classes, atributos, métodos, arquivos, diretórios e etc.
+para paises de classes, atributos, métodos, arquivos, diretórios e etc.
 
 OBS: Quando estamos planejando um software e definimos quais classes teremos que ter no sistema, chamamos
 estes objetos que serão mapeados para classes de entidade.

@@ -25,7 +25,7 @@ Exemplos de iteráveis:
 - Lista
    lista = [1, 3, 5, 7, 9]
 - Range
-   numeros = range(1, 10)
+   casos = range(1, 10)
 
 # Exemplo de for 1 (Iterando em uma string)
 for letra in nome:
@@ -73,7 +73,7 @@ OBS: Quando não precisamos de um valor, podemos descartá-lo utilizando um unde
 
 nome = 'Geek University'
 lista = [1, 3, 5, 7, 9]
-numeros = range(1, 10)  # Temos que transformar em uma lista
+casos = range(1, 10)  # Temos que transformar em uma lista
 
 
 for valor in enumerate(nome):

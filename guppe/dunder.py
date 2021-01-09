@@ -8,7 +8,7 @@ Dunder Name -> __name__
 Dunder Main -> __main__
 
 Em Python, são utilizados dunder para criar funções, atributos, propriedades e etc utilizando
-Double Under para não gerar conflito com os nomes desses elementos na programação.
+Double Under para não gerar conflito com os paises desses elementos na programação.
 
 # Na linguagem C, temos um programa da seguinte forma:
 
