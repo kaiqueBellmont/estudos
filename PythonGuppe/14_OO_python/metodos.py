@@ -89,7 +89,6 @@ class Lampada:
 
 
 class ContaCorrente:
-
     contador = 4999
 
     def __init__(self, limite, saldo):
@@ -100,7 +99,6 @@ class ContaCorrente:
 
 
 class Produto:
-
     contador = 0
 
     def __init__(self, nome, descricao, valor):
@@ -119,7 +117,6 @@ from passlib.hash import pbkdf2_sha256 as cryp
 
 
 class Usuario:
-
     contador = 0
 
     @classmethod
@@ -156,8 +153,6 @@ class Usuario:
         return self.__email.split('@')[0]
 
 
-
-
 # Método Estático
 
 
@@ -170,4 +165,3 @@ user = Usuario('Felicity', 'Jones', 'felicity@gmail.com', '123456')
 print(user.contador)
 
 print(user.definicao())
-

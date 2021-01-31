@@ -1,4 +1,4 @@
 import pywhatkit as kit
 
 
-kit.playonyt('julia ana, hermanos los')
+kit.playonyt('fks csgo')
