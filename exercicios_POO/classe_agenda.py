@@ -1,9 +1,13 @@
 class Pessoa:
 
+    contador = 1
+
     def __init__(self, nome, idade, altura):
+        self.id = contador
         self.__nome = nome
         self.__idade = idade
         self.__altura = altura
+        Pessoa.contador = Pessoa.contador + 1
 
     @property
     def nome(self):
@@ -35,12 +39,20 @@ class Pessoa:
         print(f'Altura: {self.__altura}')
 
 
-p1 = Pessoa('kaique', 24, 1.83)
-p1.dados()
-print(p1.nome)
-print(p1.idade)
-print(p1.altura)
-print(p1.__dict__)
-print(Pessoa.__dict__)
-del p1.nome
-print(p1.__dict__)
+class Agenda(Pessoa):
+
+    pessoas = []
+
+    def __init__(self, nome, idade, altura):
+        super().__init__(nome, idade, altura)
+
+    def armazena_pessoas(self, nome, idade, altura):
+        pessoa = Pessoa(nome, idade, altura)
+        Agenda.pessoas.append(pessoa)
+
+
+
+agenda.armazena_pessoas('kaique', 24, 1.38)
+
+
+
