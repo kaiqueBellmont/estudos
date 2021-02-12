@@ -66,7 +66,7 @@ agenda.adicionar_pessoa(henrique)
 
 agenda.print_pessoas()
 
-pessoaLocalizada = agenda.buscar_pessoa_por_nome("Kaique2")
+pessoa_localizada = agenda.buscar_pessoa_por_nome("Kaique2")
 
 if pessoaLocalizada is not None:
     pessoaLocalizada.print_me()
