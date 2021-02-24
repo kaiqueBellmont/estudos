@@ -1,4 +1,6 @@
 import pywhatkit as kit
 
 
-kit.playonyt('fks csgo')
+kit.sendwhatmsg("+5531987218609","pau no seu cu",15,44)
+
+
