@@ -34,14 +34,18 @@ def raio_circunferencia(r):
     return math.pi * (r ** 2)
 
 
-raios = [x for x in range(1, 100)]
+raios = [x for x in range(1, 101)]
 res = [raio_circunferencia(x).__round__(2) for x in raios]
 for indice, valor in enumerate(res):
     # print(f'{x}')
-    print(indice, "=",  valor)
+    print(indice+1, "=",  valor)
 
 
 areas = map(raio_circunferencia, raios)
 print(areas)
 
-print(list(map(lambda r: math.pi * (r ** 2), raios)))
+raios_map = list(map(lambda r: math.pi * (r ** 2), raios))
+
+print('com map:')
+for indice, valor in enumerate(raios_map):
+    print(indice+1, '=', valor.__round__(2))

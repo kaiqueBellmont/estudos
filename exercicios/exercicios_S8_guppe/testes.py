@@ -1,19 +1,22 @@
+import math
 import numpy as np
-vmysin = np.vectorize(mysin, excluded=['order'])
-
-x = np.linspace(-80, 80, 500)
-y2 = vmysin(x, 2)
-y10 = vmysin(x, 10)
-y100 = vmysin(x, 100)
-y1000 = vmysin(x, 1000)
-y = np.sin(x)
-
 import matplotlib.pyplot as plt
-plt.plot(x, y, label='sin(x)')
-plt.plot(x, y2, label='order 2')
-plt.plot(x, y10, label='order 10')
-plt.plot(x, y100, label='order 100')
-plt.plot(x, y1000, label='order 1000')
-plt.ylim([-3, 3])
-plt.legend()
+# if using a Jupyter notebook, include:
+
+angles = np.arange(-2*np.pi,2*np.pi,0.1)
+p_cos = np.cos(angles)
+
+
+def func_cos(angle, param):
+    pass
+
+
+t_cos = [func_cos(angle,3) for angle in angles]
+
+fig, ax = plt.subplots()
+ax.plot(angles,p_cos)
+ax.plot(angles,t_cos)
+ax.set_ylim([-5,5])
+ax.legend(['cos() function','Taylor Series - 3 terms'])
+
 plt.show()

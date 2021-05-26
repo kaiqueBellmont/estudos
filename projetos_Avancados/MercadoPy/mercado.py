@@ -4,13 +4,13 @@ from time import sleep
 from models.produto import Produto
 from utils.helper import formata_float_str_moeda
 
-
 produtos: List[Produto] = []
 carrinho: List[Dict[Produto, int]] = []
 
 
 def main() -> None:
     menu()
+
 
 def menu() -> None:
     print('===================================')
@@ -62,6 +62,7 @@ def cadastrar_produto() -> None:
     print(f'O produto {produto.nome} foi cadastrado com sucesso!')
     sleep(2)
     menu()
+
 
 def listar_produtos() -> None:
     if len(produtos) > 0:
@@ -122,6 +123,7 @@ def comprar_produto() -> None:
     sleep(2)
     menu()
 
+
 def visualizar_carrinho() -> None:
     if len(carrinho) > 0:
         print('Produtos no carrinho: ')
@@ -136,6 +138,7 @@ def visualizar_carrinho() -> None:
         print('Ainda não existem produtos no carrinho.')
     sleep(2)
     menu()
+
 
 def fechar_pedido() -> None:
     if len(carrinho) > 0:
@@ -158,6 +161,7 @@ def fechar_pedido() -> None:
     sleep(2)
     menu()
 
+
 def pega_produto_por_codigo(codigo: int) -> Produto:
     p: Produto = None
 
@@ -166,6 +170,6 @@ def pega_produto_por_codigo(codigo: int) -> Produto:
             p = produto
     return p
 
+
 if __name__ == '__main__':
     main()
-

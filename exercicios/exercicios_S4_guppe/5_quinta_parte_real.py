@@ -3,7 +3,8 @@ def quinta_parte(num):
     print(f'Um quinto de {num} é {um_quinto}')
     return um_quinto
 
+
 print("Digite um numero::")
 num = input()
-num = float(num)5
+num = float(num)
 quinta_parte(num)

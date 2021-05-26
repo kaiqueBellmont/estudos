@@ -13,7 +13,7 @@ def split(string):
     return string.split(' ')
 
 
-nomes = 'kaique, ash, nice, paula, carlos, fernande'
+nomes = 'kaique, nice, paula, carlos, fernande'
 lista_nomes = split(nomes)
 print(lista_nomes)
 

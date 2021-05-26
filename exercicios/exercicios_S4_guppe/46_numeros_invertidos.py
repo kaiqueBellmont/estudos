@@ -1,3 +1,6 @@
+import time
+import datetime
+import
 #inversão
 #print(cu[::-1])
 def numero(num):

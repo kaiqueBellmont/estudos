@@ -42,4 +42,4 @@ class Elevador:
     def inicializa(self, total_andares, andar_atual):
        self.__total_andares = 10
 
-    ss
+
