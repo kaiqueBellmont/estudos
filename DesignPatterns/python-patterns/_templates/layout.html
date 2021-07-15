@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title|striptags|e }}</title>
+    <link rel="stylesheet" type="text/css"
+          href="{{ pathto('_static/style.css', true) }}">
+  </head>
+  <body>
+    {% if title != 'Python Design Patterns' %}
+    <p class="motto">
+      •
+      <a href="/">Home Page</a>
+      •
+    </p>
+    {% endif %}
+    <article>
+      {{ body }}
+    </article>
+    <hr>
+    <p class="copyright">
+      © 2018–2020 <a href="http://rhodesmill.org/brandon/">Brandon Rhodes</a>
+    </p>
+  </body>
+</html>
