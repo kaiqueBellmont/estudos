@@ -1,0 +1,24 @@
+class Estoque:
+
+    def __init__(self, qtd_atual_estoque=None, qtd_max_estoque=None, qtd_min_estoque=None, qtd_media=None):
+        self.quantidade_atual = qtd_atual_estoque
+        self.qtd_max_estoque = qtd_max_estoque
+        self.qtd_min_estoque = qtd_min_estoque
+        self.qtd_media = qtd_media
+
+    def leitura(self):
+        self.quantidade_atual = float(input("Digite a quantidade Atual do produto: "))
+        self.qtd_max_estoque = float(input("Digite a quantidade maxima em estoque : "))
+        self.qtd_min_estoque = float(input("Digite a quantidade minima do produto no esotque: "))
+
+    def comprar_ou_nao(self):
+        self.qtd_media = (self.qtd_max_estoque + self.qtd_min_estoque) / 2
+        if self.qtd_media >= self.quantidade_atual:
+            print(f'Não efetuar a compra  : {self.qtd_media}')
+        else:
+            print(f'Efetuar a compra : {self.qtd_media}')
+
+
+E = Estoque()
+E.leitura()
+E.comprar_ou_nao()

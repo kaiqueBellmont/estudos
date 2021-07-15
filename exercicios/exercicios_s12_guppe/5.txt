@@ -1,0 +1,10 @@
+def cem_valores():
+    lista = []
+    for x in range(100):
+        valor = float(input("Digite um valor qualquer : "))
+        lista.append(valor)
+    minimo = min(lista)
+    maximo = max(lista)
+
+
+cem_valores()

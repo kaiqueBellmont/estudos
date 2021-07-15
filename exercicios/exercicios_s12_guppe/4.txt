@@ -1,0 +1,13 @@
+def valores():
+    a = input("Digite um valor qualquer de a: ")
+    b = input("Digite um valor qualquer de b: ")
+    while a == b:
+        a = input("Digite um valor qualquer de a: ")
+        b = input("Digite um valor qualquer de b: ")
+    if a < b and a != b:
+        print(f'Menor: {a}, Maior {b}')
+    else:
+        print(f'Menor: {b}, Maior: {a}')
+
+
+valores()

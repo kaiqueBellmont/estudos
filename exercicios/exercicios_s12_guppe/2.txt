@@ -1,0 +1,3 @@
+def juros_simples(c, i, n):
+    J = c * i * n
+    return f'{J:.2f}'
