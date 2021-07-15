@@ -1,3 +1,0 @@
-def antecessor_sucessor(num):
-    return f'Antecessor: {num -1} | sucessor: {num + 1}'
-
